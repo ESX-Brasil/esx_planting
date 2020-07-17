@@ -13,12 +13,21 @@
 --  Website: www.esxbrasil.Website
 --  Forum: forum.esxbrasil.website
 
-Locales["pl"] = {
-  ["cancel"] = "Anulowano operację.",
-  ["vehicle_deny"] = "Niestety, nie możesz znajdować się w pojeździe.",
-  ["wait_end"] = "Niestety, musisz poczekać, aż zakończysz poprzednią akcję.",
-  ["wrong_place"] = "Niestety, nie możesz wykonać tego w tym miejscu.",
-  ["doing_action"] = "Wykonujesz operację. Potrwa ona około 40 sekund.",
-  ["how_cancel"] = "Aby anulować operację kliknij <button type='button'>X</button>",
-  ["wait_ten_sec"] = 'Poczekaj przynamniej 10 sekund przed ponownym rozpoczęciem tej operacji.',
+fx_version      'adamant'
+game            'gta5'
+description     'ESXBrasil Planting'
+version         '2.0.1'
+
+server_scripts {
+    '@es_extended/locale.lua',
+    'config.lua',
+    'server/main.lua'
+}
+
+client_scripts {
+    'config.lua',
+    '@es_extended/locale.lua',
+    'client/main.lua',
+    'locales/br.lua',
+    'locales/pl.lua'
 }
