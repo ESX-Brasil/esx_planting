@@ -29,7 +29,7 @@ options =
 ## Update 27.04.2019 - Support multiple items
 From now on you can add new items/drugs without taking care of the server/main.lua file.
 The Config.CopsOnDuty variable was also removed from the server / main.lua file.
-You can now set an independent number of required policemen on duty to start the proccess with it.
+You can now set an independent number of required policemen on duty to start the process with it.
 
 
 ## opções de configuração para drogas especificado
